@@ -1,0 +1,14 @@
+
+# Local .terraform directories
+*.terraform
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.hcl
+
+/airflow/logs/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/

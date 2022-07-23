@@ -1,0 +1,5 @@
+pyarrow
+dbt-core
+dbt-bigquery
+black
+isort
