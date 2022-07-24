@@ -1,2 +1,3 @@
-*
-!.gitignore
+target/
+dbt_packages/
+logs/

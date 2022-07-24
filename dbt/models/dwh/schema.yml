@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: dwh
+    database: de-zc-350916
+    schema: movielens_25m
+    tables:
+      - name: ratings
+        location: 'gs://movielens_data_lake_de-zc-350916/raw/ratings.parquet'
+        options:
+          format: parquet
+
+models:
+  - name: dwh_ratings
+    description: >
+      cluster the ratings by movieId
